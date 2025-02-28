@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    align-items: center;
+    background-color: #004e0c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    
+}
+
+.head{
+    color: rgb(255, 255, 255);
+    font-family: serif;
+    padding-left: 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+}
+li{
+    padding-left: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: #480087;
+    
+    
+}
+.li{
+    padding-left: 50px;
+
+}
+nav ul li a{
+    text-decoration: none;
+}
+li:hover{
+    color: brown;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+nav{
+    padding-right: 70px;
+    margin-left: 130px;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    height: 50px;
+    align-items: center;
+}
+.search{
+    margin-top: -5px;
+    margin-left: 70px;
+    border-radius: 5px;
+    height: 30px;
+    width: 240px;
+    
+}
+.plantbg {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.container {
+    height: 400px;
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fruits {
+    height: 400px;
+    width: 600px;
+    float: left;
+    padding: 20px;
+}
+.fruits:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.fruits1 {
+    height: 400px;
+    width: 600px;
+    float: right;
+    padding: 20px;
+}
+.fruits1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+footer{
+    background-color: #364d40;
+    height: 300px;
+    width: 100%;
+    margin-top: -20px;
+    position: absolute;
+}
+.foottext{
+    color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: -30px;
+    margin-left: 100px;
+
+}
+.foottext1{
+    color: rgb(26, 26, 94);
+    font-size: 20px;
+    margin-top: 90px;
+    margin-left: 790px;
+}
+.logo1{
+    height: 90px;
+    width: 90px;
+
+}
+.logo2{
+    height: 160px;
+    width: 160px;
+}
+.logo3{
+    height: 70px;
+    width: 70px;
+}
+
+.logo1:hover,.logo2:hover,.logo3:hover{
+    transform: scale(1.1);
+}
+
+.container1 {
+    height: 200px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -30%);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.logo1, .logo2, .logo3 {
+    display: block; 
+}

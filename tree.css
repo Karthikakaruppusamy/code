@@ -1,0 +1,46 @@
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container1{
+    display: flex;
+    gap: 70px;
+    padding: 30px;
+    margin-left: 80px;
+}
+
+.container2{
+    display: flex;
+    gap: 70px;
+    padding: 30px;
+    margin-left: 260px;
+}
+.water{
+    height: 400px;
+    width: 300px;
+    box-shadow: 10px 10px 25px;
+    box-shadow: black;
+    color: rgb(0, 0, 0);
+    border-radius: 0px 20px 0px 20px;
+    display: flex;
+}
+.water_img{
+    height: 270px;
+    width: 260px;
+    padding: 20px;
+}
+.water_txt{
+   
+    margin-top: 310px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    color: rgb(35, 164, 10);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.water_txt1{
+    
+    margin-top: 350px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    color: red
+}
+
